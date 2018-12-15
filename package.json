@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "ngserve": "ng serve",
     "build": "ng build",
+    "start": "ng build & node server/index",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -19,7 +20,9 @@
     "@angular/platform-browser": "~7.1.0",
     "@angular/platform-browser-dynamic": "~7.1.0",
     "@angular/router": "~7.1.0",
+    "body-parser": "^1.18.3",
     "core-js": "^2.5.4",
+    "express": "^4.16.4",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
     "zone.js": "~0.8.26"
