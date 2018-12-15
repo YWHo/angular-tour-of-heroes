@@ -41,3 +41,10 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Others
+**/.DS_Store
+**/node_modules
+**/bundle.*
+**/dev.sqlite3
+**/.env
